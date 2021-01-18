@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Navbar/NavBar";
+import NavBarTop from "./components/Navbar/NavbarTop";
+import Intro from "./components/Intro/Intro";
+import IntroPage from "./pages/IntroPage";
 
 function App() {
   return (
-    <div className=" container h-full bg-black text-white">
+    <div className="w-full bg-black text-white">
 
-
+        <IntroPage />
         <NavBar />
+
     </div>
   );
 }
