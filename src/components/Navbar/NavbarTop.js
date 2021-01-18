@@ -9,7 +9,7 @@ import TitleNavbar from "./TitleNavbar";
 
 function NavBarTop() {
     return (
-        <div className={"items-center bg-gradient-to-b from-gray-900 w-full pb-5"}>
+        <div className={"items-center bg-gradient-to-b from-black w-full pb-20"}>
             <div className="grid grid-cols-7">
                 <div className="col-span-1 m-2 mt-6 ">
                     <img className="text-left h-10 mx-auto mb-1 " src={logo}/>

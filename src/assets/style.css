@@ -1,0 +1,10 @@
+.box2 {
+    white-space: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+
+.box2::-webkit-scrollbar {
+    display: none;
+}

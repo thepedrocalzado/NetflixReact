@@ -8,7 +8,7 @@ import download from "../../img/navbar/descargas.png";
 
 function NavBar() {
     return (
-        <div className=" grid grid-cols-4 items-center absolute bg-gray-900 sticky bottom-0 w-full pb-5">
+        <div className=" grid grid-cols-4 items-center absolute bg-black sticky bottom-0 w-full pb-5">
                <div className="col-span-1 m-2 text-center">
                    <img className="h-6 mx-auto mb-1" src={home}/>
                    <p className="text-white text-xs">Inicio</p>

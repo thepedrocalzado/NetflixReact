@@ -11,13 +11,13 @@ import Pointer from "./Pointer";
 
 function Intro() {
     return (
-        <div className={"bg-gradient-to-t from-gray-900 w-full pt-5"}>
+        <div className={"bg-gradient-to-t from-black w-full pt-20 "}>
             <div className={"text-center bottom-0"}>
                 <div className={"flex items-center justify-center"}>
-                    <img className="text-left h-10 m-2 " src={logo}/>
-                    <p className="uppercase font-bold text-gray-300 m-2">P e l í c u l a</p>
+                    <img className="text-left h-8 m-2 " src={logo}/>
+                    <p className="uppercase font-bold text-gray-300 text-2sm">P e l í c u l a</p>
                 </div>
-                <p className="text-3xl"> A DESCUBIERTO</p>
+                <p className="text-3xl font-bold"> A DESCUBIERTO</p>
                 <div className={"flex items-center justify-center text-xs"}>
                     <p className="font-regular text-white">Contundente</p>
                         <Pointer />
